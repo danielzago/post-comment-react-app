@@ -1,6 +1,6 @@
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('localhost:5173/')
+    cy.visit('http://localhost:5173/')
     cy.get('[data-qa="profile-box"]')
     cy.get('[data-qa="comment-input"]').first().type('teste 123')
     cy.get("[data-qa='comment-input']")
@@ -14,6 +14,9 @@ describe('template spec', () => {
     })
   })
 })
+<<<<<<< HEAD:cypress/e2e/main.spec.cy.js
 
 //meu teste de automação
 //outra tentativa
+=======
+>>>>>>> a24b373c4287b7b673ab8fff65d053c081613d41:cypress/e2e/mainspec.cy.js
